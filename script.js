@@ -23,9 +23,6 @@ menuIcon.onclick=()=>{
   navbar.classList.toggle('active');
 };
 
-
-
-
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -45,8 +42,8 @@ window.onscroll =()=>{
   });
   let header =document.querySelector('header');
   header.classList.toggle('sticky',window.screenY>100);
-   menuIcon.classList.toggle('bx-x');
-  navbar.classList.toggle('active');
+   menuIcon.classList.remove('bx-x');
+  navbar.classList.remove('active');
 
 };
 
