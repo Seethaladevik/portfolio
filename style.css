@@ -459,12 +459,15 @@ span{
     z-index: 1000;
   }
   .navbar.active{
-    display: flex;
+    display: block;
   }
   .navbar a{
     display: block;
     font-size: 2rem;
     margin: 3rem 0;
+  }
+  .header{
+    position: fixed;
   }
   .home{
     flex-direction: column;
