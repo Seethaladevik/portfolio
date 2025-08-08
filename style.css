@@ -459,10 +459,10 @@ span{
     z-index: 1000;
   }
   .navbar.active{
-    display: block;
+    display: flex;
   }
   .navbar a{
-    display: block;
+    /* display: block; */
     font-size: 2rem;
     margin: 3rem 0;
   }
